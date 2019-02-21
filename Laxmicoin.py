@@ -20,7 +20,7 @@ to the blockchain.
 We need to make sure that all the nodes in the network get also their chain updated with this last mined block 
 containing the transactions. And this particular check is called the consensus.
 
-Changes made To myfirstblockchain.py to make it a cryptocurrency-
+Changes made to blockchain.py to make it a cryptocurrency-
 1 - Added more libraries
 2 - Added transaction variable to __init__  method & the transaction key to the dictionary of create_block function
 3 - Defining a new function to create a format for transaction i.e a format for sender, receiver, and the
@@ -274,7 +274,7 @@ def mine_block():
         previous_proof=previous_block['proof']
         proof=blockchain.proof_of_work(previous_proof)
         previous_hash=blockchain.hash(previous_block) 
-        blockchain.add_transaction(sender=node_address,receiver='Salik',amount=1) 
+        blockchain.add_transaction(sender=node_address,receiver='USER',amount=1) 
         '''***Adding transaction to 'blockchain' object of our 'Blockchain' class, To use add_transaction 
         method on our 'blockchain' object we simply need to add here .add_transaction. Now comes
         who ll be the receiver, sender and what ll be the amount? As explained miner ll be rewarded
