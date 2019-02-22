@@ -46,7 +46,17 @@ right after a new block is mined on another one.
 to exchange the cryptocurrencies.  
 One Json file ll contain all the address of the nodes, 
 and the other JSON file ll contain the right format of the transactions with the right keys, i.e sender, receiver, amount.  
-12 - This code is a generalised code for a cryptocurrency, To make it work on a decentralize network,
-Create 3 python files with this same generalised code just make and run it on 3 different ports.  
-13 - But before running, Find and replace receiver='USER' in the all the 3 python files with receiver=A/B/C respectively.
-User 'A' ll be connected to port 5001 'B' ll be connected to 5002 and 'C' ll be connected to 5003.
+
+##How To Execute -
+
+This code is a generalised code for a cryptocurrency. To make it work on a decentralize network,
+Create 3 python files with this same generalised code and just make it run on 3 different ports using 3 different kernels of python.
+User 'A' ll be connected to port 5001, 'B' ll be connected to 5002 and 'C' ll be connected to 5003. To do it just find and replace 5000 with 5001 for A,
+5002 for 'B' and 5003 for 'C'.    
+But before executing, find and also replace, receiver='USER' in the all the 3 python files with receiver=A/B/C respectively.
+
+####Else  
+
+Download all the Nodes from the repo and make it run on the different kernels of Python(Spyder).
+
+##Interacting with the Crpytocurrency on Postman-
