@@ -59,4 +59,33 @@ But before executing, find and also replace, receiver='USER' in the all the 3 py
 
 Download all the Nodes from the repo and make it run on the different kernels of Python(Spyder).
 
-## Interacting with the Crpytocurrency on Postman-
+### Interacting with the Crpytocurrency on Postman-
+
+#### 1. Mining the genesis block on all the nodes 5001, 5002 and 5003.  
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/42892152/53284209-17b6c280-3777-11e9-841e-d6c17546e074.gif)  
+
+#### 2. Connecting all nodes to each other i.e 5001 is connected to 5002 and 5003, 5002 is connected to 5001 and 5003, 5003 is connected to 5001 and 5002.  
+![ezgif com-gif-maker 1](https://user-images.githubusercontent.com/42892152/53284381-8b59cf00-3779-11e9-8218-e9943cd3bef2.gif)  
+
+#### 3. Miner 'A' on node 5001 mines a block.  
+![screenshot 16](https://user-images.githubusercontent.com/42892152/53284423-569a4780-377a-11e9-9d0f-9fef6d96c060.jpg)  
+
+#### 4. Getting the full blockchain.  
+![screenshot 18](https://user-images.githubusercontent.com/42892152/53284459-f1932180-377a-11e9-999d-4ea02872e3b3.jpg)  
+
+#### 5. Updating the blockchain on node 5002. Repeat it on node 5003 to update the blockchain on that node as well.    
+![screenshot 19](https://user-images.githubusercontent.com/42892152/53284622-f2c54e00-377c-11e9-94fc-60c9dd3d1073.jpg)  
+
+#### 6. Making a transaction of Laxmicoin from User A on node 5001 port to User B on node 5002.  
+![screenshot 21](https://user-images.githubusercontent.com/42892152/53284652-74b57700-377d-11e9-8d30-c91a43767565.jpg)  
+
+#### 7. Mining the block which ll contain the above transaction.  
+![screenshot 22](https://user-images.githubusercontent.com/42892152/53284677-bb0ad600-377d-11e9-9b87-941274bfbb57.jpg)  
+
+#### 8. Getting the updated blockchain with the latest mined block in it where the transaction is stored that was made between the two nodes above.  
+![screenshot 23](https://user-images.githubusercontent.com/42892152/53284767-aa0e9480-377e-11e9-9c00-cbcf4a6c5350.jpg)  
+
+#### 9. Updating the blockchain on node 5002. Repeat it on node 5003 to update the blockchain on that node as well.   
+![screenshot 26](https://user-images.githubusercontent.com/42892152/53284886-19d14f00-3780-11e9-80d8-c90517f2e772.jpg)
+
+
